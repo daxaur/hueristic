@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 930 164" width="930" height="164" role="img">
+<rect width="930" height="164" rx="10" fill="#0d0d11"/>
+<text x="28" y="40" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" fill="#fafafa" font-weight="600">The pipeline</text>
+<rect x="28" y="64" width="196" height="62" rx="8" fill="#1c1c22" stroke="#27272a"/>
+<rect x="28" y="64" width="4" height="62" rx="2" fill="#7e9fff"/>
+<text x="44" y="90" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#fafafa" font-weight="600">any number of colors</text>
+<text x="44" y="108" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">no fixed arity</text>
+<path d="M230 95 H244 M240 91 L244 95 L240 99" fill="none" stroke="#a1a1aa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="254" y="64" width="196" height="62" rx="8" fill="#1c1c22" stroke="#27272a"/>
+<rect x="254" y="64" width="4" height="62" rx="2" fill="#ed76b2"/>
+<text x="270" y="90" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#fafafa" font-weight="600">weighted roles</text>
+<text x="270" y="108" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">bg · text · primary …</text>
+<path d="M456 95 H470 M466 91 L470 95 L466 99" fill="none" stroke="#a1a1aa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="480" y="64" width="196" height="62" rx="8" fill="#1c1c22" stroke="#27272a"/>
+<rect x="480" y="64" width="4" height="62" rx="2" fill="#de9300"/>
+<text x="496" y="90" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#fafafa" font-weight="600">seeded search</text>
+<text x="496" y="108" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">restart · climb · score</text>
+<path d="M682 95 H696 M692 91 L696 95 L692 99" fill="none" stroke="#a1a1aa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="706" y="64" width="196" height="62" rx="8" fill="#1c1c22" stroke="#27272a"/>
+<rect x="706" y="64" width="4" height="62" rx="2" fill="#33c178"/>
+<text x="722" y="90" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#fafafa" font-weight="600">ranked themes</text>
+<text x="722" y="108" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">deduped, with reasons</text>
+</svg>

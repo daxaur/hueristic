@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
+  <img alt="hueristic" src="assets/banner-light.webp">
+</picture>
+
 # hueristic
 
 Hand it colors. Get themes back, ranked, with the reasoning.
@@ -8,26 +13,33 @@ node bin/hueristic.js '#0f172a' '#34f003' '#e2e8f0'
 ```
 
 ```
-  Theme 1/3  92.9/100
+  Theme 1/1  92.9/100
   harmony 95  coherence 100
 
-  ███ bg         #0e172b
-  ███ surface    #172033
-  ███ border     #576075  Lc  19   was #0f172a
-  ███ text       #e7ebf0  Lc  93   was #e2e8f0
-  ███ textMuted  #d2d7df  Lc  81   was #e2e8f0
-  ███ primary    #34f500  Lc  80   was #34f003
-  ███ onPrimary  #000000  Lc  82
-  ███ accent     #35f800  Lc  82   was #34f003
-  ███ link       #43f225  Lc  79   was #34f003
+  ███ bg         #0e182e          was #0f172a
+  ███ surface    #1b2438          was #0f172a
+  ███ border     #59647d  Lc  19   was #0f172a
+  ███ text       #e4eaf3  Lc  93   was #e2e8f0
+  ███ textMuted  #c9cfd7  Lc  76   was #e2e8f0
+  ███ primary    #42ee25  Lc  77   was #34f003
+  ███ onPrimary  #000000  Lc  79
+  ███ accent     #33ef00  Lc  77   was #34f003
+  ███ link       #32eb00  Lc  75   was #34f003
 
   changes
-    border: lightness +28% — Lc 0 on surface, needs 18 — now 19
-    textMuted: lightness -5% — Lc 92 on bg, needs 58 — now 81
-
-  · #34f003 is a high-weight role and still needed chroma -13%. If that color is
-    non-negotiable, pin it and let the others move instead.
+    bg: chroma +18% — pulled into the lightness band a background needs
+    surface: lightness +5% — offset from the background so panels read as raised
+    border: lightness +30% — Lc 0 on surface, needs 18 — now 19
+    textMuted: lightness -8% — Lc 91 on bg, needs 58 — now 76
 ```
+
+Ask for more than one and you get genuinely different answers, not the same
+theme nudged — deduplicated by role assignment and by perceptual distance:
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/palettes-dark.svg">
+  <img alt="Three ranked candidate themes generated from the same six input colors" src="assets/palettes-light.svg">
+</picture>
 
 ## Why this exists
 
@@ -68,8 +80,15 @@ Node 18+. No dependencies, nothing to build, no install step.
 
 ## How it works
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pipeline-dark.svg">
+  <img alt="Pipeline: any number of colors, weighted roles, seeded search, ranked themes" src="assets/pipeline-light.svg">
+</picture>
+
 **1. Everything moves to OKLCh.** Perceptually uniform, so a lightness step
-means the same thing at every hue and chroma stays independent of it.
+means the same thing at every hue and chroma stays independent of it. The
+spectrum in the banner above is a plain hue sweep at one fixed lightness and
+chroma — evenly spaced by construction, which the same sweep in HSL is not.
 
 **2. Roles have weights and constraints.** Ten UI roles plus optional status
 colors. Each declares what it sits on, the contrast it needs, whether it must
@@ -87,9 +106,22 @@ carry chroma, and whether it is supposed to recede.
 | `textMuted` | 0.45 | `Lc 58` on `bg`, and to stay *below* body text |
 | `border` | 0.35 | `Lc 18` on `surface`, and to stay quiet |
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/weights-dark.svg">
+  <img alt="Bar chart of every role weight, from bg and primary at 1.00 down to the status colors at 0.25" src="assets/weights-light.svg">
+</picture>
+
 **3. Contrast is APCA.** WCAG 2.1's ratio badly mispredicts perceived contrast
 on dark backgrounds, which is exactly where themes live now. The solver
 optimises `Lc`; WCAG ratios are reported alongside for compliance.
+
+Every role is solved against its own requirement, and the search is only done
+when all of them clear:
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contrast-dark.svg">
+  <img alt="Achieved APCA Lc per role, each bar passing the tick that marks its target" src="assets/contrast-light.svg">
+</picture>
 
 **4. A theme is three numbers per role** — which input color it draws from, how
 far past its contrast target to push, and how much of the source chroma to keep.
@@ -165,6 +197,18 @@ npm test
 The APCA implementation is checked against its published reference values
 (`Lc 106.04` black on white, `-107.88` white on black, `63.06` for `#888` on
 white). If a change moves those, the change is wrong.
+
+## Figures
+
+Every chart above is generated from live solver output, and every color in them
+is mixed by the library itself:
+
+```bash
+npm run assets
+```
+
+So they cannot drift from what the code actually does. If a weight or a contrast
+target changes, rerun it and the figures follow.
 
 ## Prior art
 

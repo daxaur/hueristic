@@ -14,7 +14,8 @@
   },
   "files": ["src", "bin", "SKILL.md"],
   "scripts": {
-    "test": "node --test test/"
+    "test": "node --test test/",
+    "assets": "node scripts/build-assets.mjs"
   },
   "keywords": [
     "color",

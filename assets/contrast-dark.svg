@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 376" width="742" height="376" role="img">
+<rect width="742" height="376" rx="10" fill="#0d0d11"/>
+<text x="28" y="40" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" fill="#fafafa" font-weight="600">Contrast against target</text>
+<text x="28" y="58" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#a1a1aa">APCA Lc achieved · tick marks the role requirement</text>
+<text x="114" y="84" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa" text-anchor="end">border</text>
+<rect x="124" y="73" width="520" height="12" rx="6" fill="#1c1c22"/>
+<rect x="124" y="73" width="118" height="12" rx="6" fill="#64708b" stroke="#27272a" stroke-width="0.75"/>
+<rect x="209.0909090909091" y="68" width="2" height="22" rx="1" fill="#fafafa" opacity="0.55"/>
+<text x="656" y="84" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa">25</text>
+<text x="688" y="84" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#27272a">/18</text>
+<text x="114" y="110" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa" text-anchor="end">text</text>
+<rect x="124" y="99" width="520" height="12" rx="6" fill="#1c1c22"/>
+<rect x="124" y="99" width="477" height="12" rx="6" fill="#f0f6fe" stroke="#27272a" stroke-width="0.75"/>
+<rect x="492.72727272727275" y="94" width="2" height="22" rx="1" fill="#fafafa" opacity="0.55"/>
+<text x="656" y="110" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa">101</text>
+<text x="688" y="110" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#27272a">/78</text>
+<text x="114" y="136" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa" text-anchor="end">textMuted</text>
+<rect x="124" y="125" width="520" height="12" rx="6" fill="#1c1c22"/>
+<rect x="124" y="125" width="421" height="12" rx="6" fill="#dee5ed" stroke="#27272a" stroke-width="0.75"/>
+<rect x="398.1818181818182" y="120" width="2" height="22" rx="1" fill="#fafafa" opacity="0.55"/>
+<text x="656" y="136" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa">89</text>
+<text x="688" y="136" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#27272a">/58</text>
+<text x="114" y="162" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa" text-anchor="end">primary</text>
+<rect x="124" y="151" width="520" height="12" rx="6" fill="#1c1c22"/>
+<rect x="124" y="151" width="364" height="12" rx="6" fill="#33ef00" stroke="#27272a" stroke-width="0.75"/>
+<rect x="322.54545454545456" y="146" width="2" height="22" rx="1" fill="#fafafa" opacity="0.55"/>
+<text x="656" y="162" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa">77</text>
+<text x="688" y="162" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#27272a">/42</text>
+<text x="114" y="188" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa" text-anchor="end">onPrimary</text>
+<rect x="124" y="177" width="520" height="12" rx="6" fill="#1c1c22"/>
+<rect x="124" y="177" width="373" height="12" rx="6" fill="#000000" stroke="#27272a" stroke-width="0.75"/>
+<rect x="464.3636363636364" y="172" width="2" height="22" rx="1" fill="#fafafa" opacity="0.55"/>
+<text x="656" y="188" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa">79</text>
+<text x="688" y="188" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#27272a">/72</text>
+<text x="114" y="214" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa" text-anchor="end">accent</text>
+<rect x="124" y="203" width="520" height="12" rx="6" fill="#1c1c22"/>
+<rect x="124" y="203" width="364" height="12" rx="6" fill="#42ee24" stroke="#27272a" stroke-width="0.75"/>
+<rect x="280" y="198" width="2" height="22" rx="1" fill="#fafafa" opacity="0.55"/>
+<text x="656" y="214" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa">77</text>
+<text x="688" y="214" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#27272a">/33</text>
+<text x="114" y="240" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa" text-anchor="end">onAccent</text>
+<rect x="124" y="229" width="520" height="12" rx="6" fill="#1c1c22"/>
+<rect x="124" y="229" width="373" height="12" rx="6" fill="#000000" stroke="#27272a" stroke-width="0.75"/>
+<rect x="445.4545454545455" y="224" width="2" height="22" rx="1" fill="#fafafa" opacity="0.55"/>
+<text x="656" y="240" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa">79</text>
+<text x="688" y="240" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#27272a">/68</text>
+<text x="114" y="266" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa" text-anchor="end">link</text>
+<rect x="124" y="255" width="520" height="12" rx="6" fill="#1c1c22"/>
+<rect x="124" y="255" width="369" height="12" rx="6" fill="#33f100" stroke="#27272a" stroke-width="0.75"/>
+<rect x="417.0909090909091" y="250" width="2" height="22" rx="1" fill="#fafafa" opacity="0.55"/>
+<text x="656" y="266" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa">78</text>
+<text x="688" y="266" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#27272a">/62</text>
+<text x="114" y="292" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa" text-anchor="end">success</text>
+<rect x="124" y="281" width="520" height="12" rx="6" fill="#1c1c22"/>
+<rect x="124" y="281" width="189" height="12" rx="6" fill="#439d55" stroke="#27272a" stroke-width="0.75"/>
+<rect x="303.6363636363636" y="276" width="2" height="22" rx="1" fill="#fafafa" opacity="0.55"/>
+<text x="656" y="292" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa">40</text>
+<text x="688" y="292" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#27272a">/38</text>
+<text x="114" y="318" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa" text-anchor="end">warning</text>
+<rect x="124" y="307" width="520" height="12" rx="6" fill="#1c1c22"/>
+<rect x="124" y="307" width="194" height="12" rx="6" fill="#b88600" stroke="#27272a" stroke-width="0.75"/>
+<rect x="303.6363636363636" y="302" width="2" height="22" rx="1" fill="#fafafa" opacity="0.55"/>
+<text x="656" y="318" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa">41</text>
+<text x="688" y="318" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#27272a">/38</text>
+<text x="114" y="344" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa" text-anchor="end">danger</text>
+<rect x="124" y="333" width="520" height="12" rx="6" fill="#1c1c22"/>
+<rect x="124" y="333" width="208" height="12" rx="6" fill="#da786c" stroke="#27272a" stroke-width="0.75"/>
+<rect x="313.0909090909091" y="328" width="2" height="22" rx="1" fill="#fafafa" opacity="0.55"/>
+<text x="656" y="344" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa">44</text>
+<text x="688" y="344" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#27272a">/40</text>
+</svg>

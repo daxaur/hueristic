@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 428" width="768" height="428" role="img">
+<rect width="768" height="428" rx="10" fill="#fafafa"/>
+<text x="28" y="40" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" fill="#18181b" font-weight="600">Role weights</text>
+<text x="28" y="58" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#71717a">how much each role counts toward the score</text>
+<text x="114" y="84" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a" text-anchor="end">bg</text>
+<rect x="124" y="73" width="560" height="12" rx="6" fill="#ececef"/>
+<rect x="124" y="73" width="560" height="12" rx="6" fill="#7e9fff"/>
+<text x="696" y="84" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a">1.00</text>
+<text x="114" y="110" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a" text-anchor="end">primary</text>
+<rect x="124" y="99" width="560" height="12" rx="6" fill="#ececef"/>
+<rect x="124" y="99" width="560" height="12" rx="6" fill="#aa8efe"/>
+<text x="696" y="110" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a">1.00</text>
+<text x="114" y="136" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a" text-anchor="end">text</text>
+<rect x="124" y="125" width="560" height="12" rx="6" fill="#ececef"/>
+<rect x="124" y="125" width="532" height="12" rx="6" fill="#cf81e4"/>
+<text x="696" y="136" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a">0.95</text>
+<text x="114" y="162" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a" text-anchor="end">onPrimary</text>
+<rect x="124" y="151" width="560" height="12" rx="6" fill="#ececef"/>
+<rect x="124" y="151" width="392" height="12" rx="6" fill="#e878bd"/>
+<text x="696" y="162" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a">0.70</text>
+<text x="114" y="188" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a" text-anchor="end">surface</text>
+<rect x="124" y="177" width="560" height="12" rx="6" fill="#ececef"/>
+<rect x="124" y="177" width="336" height="12" rx="6" fill="#f6758e"/>
+<text x="696" y="188" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a">0.60</text>
+<text x="114" y="214" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a" text-anchor="end">link</text>
+<rect x="124" y="203" width="560" height="12" rx="6" fill="#ececef"/>
+<rect x="124" y="203" width="308" height="12" rx="6" fill="#f87b5c"/>
+<text x="696" y="214" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a">0.55</text>
+<text x="114" y="240" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a" text-anchor="end">accent</text>
+<rect x="124" y="229" width="560" height="12" rx="6" fill="#ececef"/>
+<rect x="124" y="229" width="280" height="12" rx="6" fill="#eb891e"/>
+<text x="696" y="240" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a">0.50</text>
+<text x="114" y="266" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a" text-anchor="end">textMuted</text>
+<rect x="124" y="255" width="560" height="12" rx="6" fill="#ececef"/>
+<rect x="124" y="255" width="252" height="12" rx="6" fill="#ce9c00"/>
+<text x="696" y="266" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a">0.45</text>
+<text x="114" y="292" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a" text-anchor="end">border</text>
+<rect x="124" y="281" width="560" height="12" rx="6" fill="#ececef"/>
+<rect x="124" y="281" width="196" height="12" rx="6" fill="#aaad00"/>
+<text x="696" y="292" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a">0.35</text>
+<text x="114" y="318" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a" text-anchor="end">onAccent</text>
+<rect x="124" y="307" width="560" height="12" rx="6" fill="#ececef"/>
+<rect x="124" y="307" width="196" height="12" rx="6" fill="#73bb4f"/>
+<text x="696" y="318" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a">0.35</text>
+<text x="114" y="344" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a" text-anchor="end">danger</text>
+<rect x="124" y="333" width="560" height="12" rx="6" fill="#ececef"/>
+<rect x="124" y="333" width="168" height="12" rx="6" fill="#00c285"/>
+<text x="696" y="344" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a">0.30</text>
+<text x="114" y="370" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a" text-anchor="end">success</text>
+<rect x="124" y="359" width="560" height="12" rx="6" fill="#ececef"/>
+<rect x="124" y="359" width="140" height="12" rx="6" fill="#00bdb2"/>
+<text x="696" y="370" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a">0.25</text>
+<text x="114" y="396" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a" text-anchor="end">warning</text>
+<rect x="124" y="385" width="560" height="12" rx="6" fill="#ececef"/>
+<rect x="124" y="385" width="140" height="12" rx="6" fill="#00b8d3"/>
+<text x="696" y="396" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#71717a">0.25</text>
+</svg>
