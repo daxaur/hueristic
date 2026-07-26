@@ -1,7 +1,7 @@
 {
   "name": "hueristic",
   "version": "0.1.0",
-  "description": "Weighted color theme solver — hand it any number of colors, get ranked, readable themes back with the reasoning",
+  "description": "Weighted color theme solver — assign any number of colors to UI roles, get ranked accessible themes with previews and the reasoning",
   "type": "module",
   "main": "src/index.js",
   "exports": {

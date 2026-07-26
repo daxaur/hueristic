@@ -1,4 +1,5 @@
 import { parseHex } from './color.js';
+import { renderPreview } from './preview.js';
 
 const kebab = (s) => s.replace(/[A-Z]/g, (c) => `-${c.toLowerCase()}`);
 
@@ -69,7 +70,7 @@ export function toTerminal(result, { index = 1, total = 1 } = {}) {
   return out.join('\n');
 }
 
-export function formatResult(result, format) {
+export function formatResult(result, format, options = {}) {
   switch (format) {
     case 'css':
       return toCss(result.theme);
@@ -77,6 +78,10 @@ export function formatResult(result, format) {
       return toTailwind(result.theme);
     case 'tokens':
       return JSON.stringify(toTokens(result.theme), null, 2);
+    case 'preview':
+      return renderPreview(result.palette, {
+        title: `${options.mode ?? ''} · ${result.score}/100`.trim(),
+      });
     case 'json':
       return JSON.stringify(result, null, 2);
     default:

@@ -1,6 +1,6 @@
 ---
 name: hueristic
-description: Turn any number of colors into ranked, accessible UI themes. Use when someone hands over brand colors, a palette pulled from an image, or a half-formed color idea and you need real design tokens — background, surface, text, primary, accent, border — with contrast that survives review, plus a list of what had to change and why. Also scores and critiques a theme that already exists.
+description: Turn any number of colors into ranked, accessible UI themes, and render them as preview images. Use when someone hands over brand colors, a palette pulled from an image, or a half-formed color idea and you need real design tokens — background, surface, text, primary, accent, border — with contrast that survives review, plus a list of what had to change and why. Renders any theme to a self-contained SVG mock-up so you can show a palette instead of listing hex codes. Also scores and critiques a theme that already exists.
 ---
 
 # hueristic
@@ -38,11 +38,32 @@ Useful flags:
 -n, --count <n>                how many candidates to return (3)
 -s, --seed <n>                 same seed, same themes        (1)
 -w, --weight <role=value>      override a role's weight, repeatable
--f, --format table|json|css|tailwind|tokens
+-f, --format table|json|css|tailwind|tokens|preview
     --pick <n>                 output only the nth candidate
+    --preview-dir <dir>        write an SVG mock-up per candidate into <dir>
     --effort fast|normal|deep  search budget                 (normal)
     --evaluate <json|file>     score an existing theme instead of making one
 ```
+
+## Showing a theme instead of describing it
+
+Hex codes in a chat window tell the user nothing. Render the theme:
+
+```bash
+node bin/hueristic.js '#5b21b6' '#f59e0b' -m light -n 3 --preview-dir ./previews
+```
+
+Each file is a self-contained SVG of a small mock interface — sidebar, card,
+primary and accent buttons, link, status pills, swatch strip — drawn in that
+theme's colors. No image model is involved, so it is instant, free, and
+deterministic. Do NOT reach for an image generator to visualise a palette; that
+would invent colors rather than show the real ones.
+
+Reach for previews when the user is choosing between candidates, when they asked
+what a theme "looks like", or when you are handing over a final answer. Write
+them to a path the user can open, and say which file is which.
+
+For a single preview to stdout, use `-f preview`. In code, `renderPreview(palette, { title })`.
 
 For programmatic use:
 

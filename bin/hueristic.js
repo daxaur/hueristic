@@ -1,7 +1,9 @@
 #!/usr/bin/env node
-import { readFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { join } from 'node:path';
 import { generateThemes, evaluateTheme } from '../src/index.js';
 import { formatResult, toTerminal } from '../src/format.js';
+import { renderPreview } from '../src/preview.js';
 
 const HELP = `hueristic — weighted color theme solver
 
@@ -15,8 +17,9 @@ Options
   -n, --count <n>                how many themes to return          (3)
   -s, --seed <n>                 same seed gives the same themes    (1)
   -w, --weight <role=value>      override a role weight, repeatable
-  -f, --format <fmt>             table | json | css | tailwind | tokens
+  -f, --format <fmt>             table | json | css | tailwind | tokens | preview
       --pick <n>                 output only the nth theme
+      --preview-dir <dir>        write an SVG mock-up per theme into <dir>
       --effort <fast|normal|deep>  search budget                    (normal)
       --no-status                skip success/warning/danger roles
       --evaluate <json|file>     score an existing theme instead
@@ -26,6 +29,8 @@ Examples
   hueristic '#0f172a' '#34f003' '#e2e8f0'
   hueristic '#5b21b6' '#f59e0b' --mode light --count 5 --format json
   hueristic '#111' '#0af' --weight primary=1.6 --weight textMuted=0.2
+  hueristic '#0f172a' '#34f003' -f preview > theme.svg
+  hueristic '#0f172a' '#34f003' -n 3 --preview-dir ./previews
   hueristic --evaluate theme.json --mode dark
 `;
 
@@ -79,6 +84,9 @@ function parseArgs(argv) {
         break;
       case '--pick':
         opts.pick = Number(next());
+        break;
+      case '--preview-dir':
+        opts.previewDir = next();
         break;
       case '--no-status':
         opts.includeStatus = false;
@@ -156,13 +164,25 @@ function run(opts) {
     if (opts.pick) result.themes = result.themes.slice(opts.pick - 1, opts.pick);
   }
 
+  if (opts.previewDir) {
+    mkdirSync(opts.previewDir, { recursive: true });
+    const written = runs.flatMap((run) =>
+      run.themes.map((theme) => {
+        const file = join(opts.previewDir, `${run.mode}-${theme.rank}.svg`);
+        writeFileSync(file, renderPreview(theme.palette, { title: `${run.mode} · ${theme.score}/100` }));
+        return file;
+      }),
+    );
+    return written.join('\n');
+  }
+
   if (opts.format === 'json') {
     return JSON.stringify(runs.length === 1 ? runs[0] : runs, null, 2);
   }
 
   if (opts.format !== 'table') {
     return runs
-      .flatMap((run) => run.themes.map((theme) => formatResult(theme, opts.format)))
+      .flatMap((run) => run.themes.map((theme) => formatResult(theme, opts.format, { mode: run.mode })))
       .join('\n\n');
   }
 

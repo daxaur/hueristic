@@ -6,6 +6,7 @@ import { critique, contrastMatrix } from './critique.js';
 import { apcaAbs } from './contrast.js';
 
 export { toCss, toTailwind, toTokens, toTerminal, formatResult } from './format.js';
+export { renderPreview } from './preview.js';
 export { apca, apcaAbs, wcagRatio, wcagLevel, apcaAdvice } from './contrast.js';
 export { ROLES, STATUS_ROLES, roleTable } from './roles.js';
 export * from './color.js';

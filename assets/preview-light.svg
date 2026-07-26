@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 476" width="760" height="476" role="img">
+<title>light · 90.3/100</title>
+<rect x="0" y="0" width="760" height="476" rx="12" fill="#fafafa"/>
+<rect x="0" y="0" width="760" height="40" rx="12" fill="#ebebeb"/>
+<rect x="0" y="28" width="760" height="12" rx="0" fill="#ebebeb"/>
+<line x1="0" y1="40" x2="760" y2="40" stroke="#e69300" stroke-width="1"/>
+<circle cx="20" cy="20" r="5" fill="#eb5a4e"/>
+<circle cx="38" cy="20" r="5" fill="#c18d00"/>
+<circle cx="56" cy="20" r="5" fill="#00a943"/>
+<text x="380" y="24" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#777777" text-anchor="middle">light · 90.3/100</text>
+<rect x="0" y="40" width="190" height="360" rx="0" fill="#ebebeb"/>
+<line x1="190" y1="40" x2="190" y2="400" stroke="#e69300" stroke-width="1"/>
+<rect x="12" y="64" width="166" height="30" rx="7" fill="#5b00bf" opacity="0.16"/>
+<rect x="12" y="64" width="3" height="30" rx="1.5" fill="#5b00bf"/>
+<text x="28" y="84" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#1c1c1f" font-weight="600">Overview</text>
+<text x="28" y="118" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#777777">Palettes</text>
+<text x="28" y="152" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#777777">Contrast</text>
+<text x="28" y="186" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#777777">Settings</text>
+<text x="218" y="84" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="20" fill="#1c1c1f" font-weight="650">Good morning</text>
+<text x="218" y="108" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#777777">Four roles carry this theme. The rest stay out of the way.</text>
+<rect x="218" y="132" width="514" height="168" rx="10" fill="#ebebeb" stroke="#e69300"/>
+<text x="238" y="164" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="14" fill="#1c1c1f" font-weight="600">Contrast is decided, not guessed</text>
+<text x="238" y="188" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#1c1c1f">Body copy sits at the lightness the target demanded.</text>
+<text x="238" y="208" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#777777">Secondary text deliberately reads quieter than body text.</text>
+<rect x="238" y="228" width="118" height="34" rx="8" fill="#5b00bf"/>
+<text x="297" y="250" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="600" text-anchor="middle">Get started</text>
+<rect x="366" y="228" width="96" height="34" rx="8" fill="#ea509a"/>
+<text x="414" y="250" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff" font-weight="600" text-anchor="middle">Preview</text>
+<text x="480" y="250" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#5b34aa">or read the docs</text>
+<line x1="480" y1="254" x2="573" y2="254" stroke="#5b34aa" stroke-width="1"/>
+<rect x="218" y="314" width="106" height="26" rx="13" fill="#00a943" opacity="0.18"/>
+<circle cx="234" cy="327" r="4" fill="#00a943"/>
+<text x="246" y="331" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#777777">Passing</text>
+<rect x="336" y="314" width="106" height="26" rx="13" fill="#c18d00" opacity="0.18"/>
+<circle cx="352" cy="327" r="4" fill="#c18d00"/>
+<text x="364" y="331" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#777777">Review</text>
+<rect x="454" y="314" width="106" height="26" rx="13" fill="#eb5a4e" opacity="0.18"/>
+<circle cx="470" cy="327" r="4" fill="#eb5a4e"/>
+<text x="482" y="331" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#777777">Failing</text>
+<line x1="0" y1="400" x2="760" y2="400" stroke="#e69300" stroke-width="1"/>
+<rect x="24" y="424" width="26" height="26" rx="6" fill="#fafafa" stroke="#e69300"/>
+<rect x="57" y="424" width="26" height="26" rx="6" fill="#ebebeb" stroke="#e69300"/>
+<rect x="90" y="424" width="26" height="26" rx="6" fill="#e69300" stroke="#e69300"/>
+<rect x="123" y="424" width="26" height="26" rx="6" fill="#1c1c1f" stroke="#e69300"/>
+<rect x="156" y="424" width="26" height="26" rx="6" fill="#777777" stroke="#e69300"/>
+<rect x="189" y="424" width="26" height="26" rx="6" fill="#5b00bf" stroke="#e69300"/>
+<rect x="222" y="424" width="26" height="26" rx="6" fill="#ffffff" stroke="#e69300"/>
+<rect x="255" y="424" width="26" height="26" rx="6" fill="#ea509a" stroke="#e69300"/>
+<rect x="288" y="424" width="26" height="26" rx="6" fill="#ffffff" stroke="#e69300"/>
+<rect x="321" y="424" width="26" height="26" rx="6" fill="#5b34aa" stroke="#e69300"/>
+<rect x="354" y="424" width="26" height="26" rx="6" fill="#00a943" stroke="#e69300"/>
+<rect x="387" y="424" width="26" height="26" rx="6" fill="#c18d00" stroke="#e69300"/>
+<rect x="420" y="424" width="26" height="26" rx="6" fill="#eb5a4e" stroke="#e69300"/>
+</svg>

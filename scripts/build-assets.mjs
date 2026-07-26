@@ -8,6 +8,7 @@ import { writeFileSync, mkdirSync } from 'node:fs';
 import { generateThemes } from '../src/index.js';
 import { roleTable } from '../src/roles.js';
 import { oklchToHex } from '../src/color.js';
+import { renderPreview } from '../src/preview.js';
 import { apcaAbs } from '../src/contrast.js';
 
 const OUT = new URL('../assets/', import.meta.url);
@@ -256,6 +257,19 @@ function spectrum(t) {
   );
 }
 
+// --------------------------------------------------------------- theme preview
+
+function previews() {
+  const inputs = ['#5b21b6', '#f59e0b', '#fafafa', '#18181b', '#ec4899', '#06b6d4'];
+  for (const mode of ['light', 'dark']) {
+    const { themes } = generateThemes(inputs, { mode, count: 1, seed: 3 });
+    write(
+      `preview-${mode}.svg`,
+      renderPreview(themes[0].palette, { title: `${mode} · ${themes[0].score}/100` }),
+    );
+  }
+}
+
 // ------------------------------------------------------------------------ main
 
 console.log('writing assets/');
@@ -266,6 +280,7 @@ for (const [name, theme] of Object.entries(THEMES)) {
   write(`pipeline-${name}.svg`, pipeline(theme));
 }
 write('spectrum.svg', spectrum(THEMES.light));
+previews();
 
 // A quick sanity check that the ladder is telling the truth.
 const { themes } = generateThemes(['#0f172a', '#34f003', '#e2e8f0'], {
