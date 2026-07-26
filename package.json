@@ -1,0 +1,37 @@
+{
+  "name": "hueristic",
+  "version": "0.1.0",
+  "description": "Weighted color theme solver — hand it any number of colors, get ranked, readable themes back with the reasoning",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./color": "./src/color.js",
+    "./contrast": "./src/contrast.js"
+  },
+  "bin": {
+    "hueristic": "bin/hueristic.js"
+  },
+  "files": ["src", "bin", "SKILL.md"],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "color",
+    "palette",
+    "theme",
+    "design-tokens",
+    "accessibility",
+    "apca",
+    "oklch",
+    "contrast"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daxaur/hueristic.git"
+  }
+}
