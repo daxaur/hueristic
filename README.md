@@ -111,8 +111,12 @@ const { themes } = generateThemes(['#0f172a', '#34f003'], { mode: 'dark' });
 const svg = renderPreview(themes[0].palette, { title: 'dark · 92.9' });
 ```
 
-Deterministic, self-contained, and about 6 kB — safe to write to a file, inline
-in a page, or convert to PNG.
+The card carries a working interface on the left, the numbers that produced it
+charted on the right, and the full palette along the bottom — every bar drawn
+from the theme's real measured contrast, not decoration. Deterministic,
+self-contained, about 20 kB, and safe to inline in a page or convert to PNG.
+
+Pass `charts: false` for just the interface on a narrower canvas.
 
 ## How it works
 

@@ -1,54 +1,151 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 476" width="760" height="476" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 872 562" width="872" height="562" role="img">
 <title>dark · 90.1/100</title>
-<rect x="0" y="0" width="760" height="476" rx="12" fill="#19191c"/>
-<rect x="0" y="0" width="760" height="40" rx="12" fill="#242427"/>
-<rect x="0" y="28" width="760" height="12" rx="0" fill="#242427"/>
-<line x1="0" y1="40" x2="760" y2="40" stroke="#67676b" stroke-width="1"/>
-<circle cx="20" cy="20" r="5" fill="#d3776c"/>
-<circle cx="38" cy="20" r="5" fill="#b98600"/>
-<circle cx="56" cy="20" r="5" fill="#1ba145"/>
-<text x="380" y="24" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#bbbbc1" text-anchor="middle">dark · 90.1/100</text>
-<rect x="0" y="40" width="190" height="360" rx="0" fill="#242427"/>
-<line x1="190" y1="40" x2="190" y2="400" stroke="#67676b" stroke-width="1"/>
-<rect x="12" y="64" width="166" height="30" rx="7" fill="#f49c00" opacity="0.16"/>
-<rect x="12" y="64" width="3" height="30" rx="1.5" fill="#f49c00"/>
-<text x="28" y="84" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#fbfbfb" font-weight="600">Overview</text>
-<text x="28" y="118" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bbbbc1">Palettes</text>
-<text x="28" y="152" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bbbbc1">Contrast</text>
-<text x="28" y="186" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bbbbc1">Settings</text>
-<text x="218" y="84" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="20" fill="#fbfbfb" font-weight="650">Good morning</text>
-<text x="218" y="108" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bbbbc1">Four roles carry this theme. The rest stay out of the way.</text>
-<rect x="218" y="132" width="514" height="168" rx="10" fill="#242427" stroke="#67676b"/>
-<text x="238" y="164" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="14" fill="#fbfbfb" font-weight="600">Contrast is decided, not guessed</text>
-<text x="238" y="188" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#fbfbfb">Body copy sits at the lightness the target demanded.</text>
-<text x="238" y="208" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#bbbbc1">Secondary text deliberately reads quieter than body text.</text>
-<rect x="238" y="228" width="118" height="34" rx="8" fill="#f49c00"/>
-<text x="297" y="250" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#000000" font-weight="600" text-anchor="middle">Get started</text>
-<rect x="366" y="228" width="96" height="34" rx="8" fill="#f69e00"/>
-<text x="414" y="250" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#000000" font-weight="600" text-anchor="middle">Preview</text>
-<text x="480" y="250" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#00c6e7">or read the docs</text>
-<line x1="480" y1="254" x2="573" y2="254" stroke="#00c6e7" stroke-width="1"/>
-<rect x="218" y="314" width="106" height="26" rx="13" fill="#1ba145" opacity="0.18"/>
-<circle cx="234" cy="327" r="4" fill="#1ba145"/>
-<text x="246" y="331" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#bbbbc1">Passing</text>
-<rect x="336" y="314" width="106" height="26" rx="13" fill="#b98600" opacity="0.18"/>
-<circle cx="352" cy="327" r="4" fill="#b98600"/>
-<text x="364" y="331" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#bbbbc1">Review</text>
-<rect x="454" y="314" width="106" height="26" rx="13" fill="#d3776c" opacity="0.18"/>
-<circle cx="470" cy="327" r="4" fill="#d3776c"/>
-<text x="482" y="331" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#bbbbc1">Failing</text>
-<line x1="0" y1="400" x2="760" y2="400" stroke="#67676b" stroke-width="1"/>
-<rect x="24" y="424" width="26" height="26" rx="6" fill="#19191c" stroke="#67676b"/>
-<rect x="57" y="424" width="26" height="26" rx="6" fill="#242427" stroke="#67676b"/>
-<rect x="90" y="424" width="26" height="26" rx="6" fill="#67676b" stroke="#67676b"/>
-<rect x="123" y="424" width="26" height="26" rx="6" fill="#fbfbfb" stroke="#67676b"/>
-<rect x="156" y="424" width="26" height="26" rx="6" fill="#bbbbc1" stroke="#67676b"/>
-<rect x="189" y="424" width="26" height="26" rx="6" fill="#f49c00" stroke="#67676b"/>
-<rect x="222" y="424" width="26" height="26" rx="6" fill="#000000" stroke="#67676b"/>
-<rect x="255" y="424" width="26" height="26" rx="6" fill="#f69e00" stroke="#67676b"/>
-<rect x="288" y="424" width="26" height="26" rx="6" fill="#000000" stroke="#67676b"/>
-<rect x="321" y="424" width="26" height="26" rx="6" fill="#00c6e7" stroke="#67676b"/>
-<rect x="354" y="424" width="26" height="26" rx="6" fill="#1ba145" stroke="#67676b"/>
-<rect x="387" y="424" width="26" height="26" rx="6" fill="#b98600" stroke="#67676b"/>
-<rect x="420" y="424" width="26" height="26" rx="6" fill="#d3776c" stroke="#67676b"/>
+<rect x="0" y="0" width="872" height="562" rx="12" fill="#19191c"/>
+<rect x="0" y="0" width="872" height="42" rx="12" fill="#242427"/>
+<rect x="0" y="30" width="872" height="12" rx="0" fill="#242427"/>
+<line x1="0" y1="42" x2="872" y2="42" stroke="#67676b" stroke-width="1"/>
+<circle cx="20" cy="21" r="5" fill="#d3776c"/>
+<circle cx="37" cy="21" r="5" fill="#b98600"/>
+<circle cx="54" cy="21" r="5" fill="#1ba145"/>
+<text x="84" y="25" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#bbbbc1">dark · 90.1/100</text>
+<rect x="22" y="64" width="110" height="30" rx="7" fill="#f49c00" opacity="0.18"/>
+<rect x="22" y="64" width="3" height="30" rx="1.5" fill="#f49c00"/>
+<text x="36" y="84" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#fbfbfb" font-weight="600">Overview</text>
+<text x="152" y="84" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bbbbc1">Palettes</text>
+<text x="270" y="84" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#bbbbc1">Contrast</text>
+<rect x="22" y="110" width="372" height="168" rx="10" fill="#242427" stroke="#67676b" stroke-width="1"/>
+<text x="40" y="140" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="14" fill="#fbfbfb" font-weight="650">Contrast is decided, not guessed</text>
+<text x="40" y="164" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#fbfbfb">Body copy sits where the target demanded.</text>
+<text x="40" y="184" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#bbbbc1">Secondary text reads quieter, on purpose.</text>
+<rect x="40" y="204" width="112" height="33" rx="8" fill="#f49c00"/>
+<text x="96" y="225" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#000000" font-weight="600" text-anchor="middle">Get started</text>
+<rect x="160" y="204" width="92" height="33" rx="8" fill="#f69e00"/>
+<text x="206" y="225" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#000000" font-weight="600" text-anchor="middle">Preview</text>
+<text x="266" y="225" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#00c6e7">read the docs</text>
+<line x1="266" y1="229" x2="346" y2="229" stroke="#00c6e7" stroke-width="1"/>
+<rect x="22" y="294" width="117.33" height="30" rx="15" fill="#1ba145" opacity="0.18"/>
+<circle cx="39" cy="309" r="4" fill="#1ba145"/>
+<text x="51" y="313" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#bbbbc1">Passing</text>
+<rect x="149.33" y="294" width="117.33" height="30" rx="15" fill="#b98600" opacity="0.18"/>
+<circle cx="166.33333333333331" cy="309" r="4" fill="#b98600"/>
+<text x="178.33" y="313" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#bbbbc1">Review</text>
+<rect x="276.67" y="294" width="117.33" height="30" rx="15" fill="#d3776c" opacity="0.18"/>
+<circle cx="293.66666666666663" cy="309" r="4" fill="#d3776c"/>
+<text x="305.67" y="313" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#bbbbc1">Failing</text>
+<rect x="22" y="340" width="268" height="34" rx="8" fill="#19191c" stroke="#67676b" stroke-width="1"/>
+<text x="36" y="362" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#bbbbc1">you@example.com</text>
+<rect x="300" y="340" width="94" height="34" rx="8" fill="#f49c00"/>
+<text x="347" y="362" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#000000" font-weight="600" text-anchor="middle">Sign up</text>
+<rect x="22" y="390" width="117.33" height="58" rx="9" fill="#242427" stroke="#67676b" stroke-width="1"/>
+<text x="36" y="417" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="16" fill="#fbfbfb" font-weight="650">Lc 104</text>
+<text x="36" y="435" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#bbbbc1">body on bg</text>
+<rect x="149.33" y="390" width="117.33" height="58" rx="9" fill="#242427" stroke="#67676b" stroke-width="1"/>
+<text x="163.33" y="417" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="16" fill="#fbfbfb" font-weight="650">17.0:1</text>
+<text x="163.33" y="435" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#bbbbc1">WCAG ratio</text>
+<rect x="276.67" y="390" width="117.33" height="58" rx="9" fill="#242427" stroke="#67676b" stroke-width="1"/>
+<text x="290.67" y="417" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="16" fill="#fbfbfb" font-weight="650">AAA</text>
+<text x="290.67" y="435" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#bbbbc1">13 roles</text>
+<text x="416" y="75" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#bbbbc1" font-weight="700">CONTRAST</text>
+<text x="484" y="75" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#bbbbc1" opacity="0.7">APCA Lc · tick is the target</text>
+<text x="480" y="103" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#bbbbc1" text-anchor="end">text</text>
+<rect x="490" y="93" width="314" height="12" rx="6" fill="#67676b" opacity="0.28"/>
+<rect x="490" y="93" width="296.87" height="12" rx="6" fill="#fbfbfb" stroke="#67676b" stroke-width="0.75"/>
+<rect x="712.65" y="88" width="1.5" height="22" rx="1" fill="#fbfbfb" opacity="0.5"/>
+<text x="812" y="103" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#fbfbfb">104</text>
+<text x="480" y="128" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#bbbbc1" text-anchor="end">textMuted</text>
+<rect x="490" y="118" width="314" height="12" rx="6" fill="#67676b" opacity="0.28"/>
+<rect x="490" y="118" width="185.55" height="12" rx="6" fill="#bbbbc1" stroke="#67676b" stroke-width="0.75"/>
+<rect x="655.56" y="113" width="1.5" height="22" rx="1" fill="#fbfbfb" opacity="0.5"/>
+<text x="812" y="128" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#fbfbfb">65</text>
+<text x="480" y="153" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#bbbbc1" text-anchor="end">link</text>
+<rect x="490" y="143" width="314" height="12" rx="6" fill="#67676b" opacity="0.28"/>
+<rect x="490" y="143" width="176.98" height="12" rx="6" fill="#00c6e7" stroke="#67676b" stroke-width="0.75"/>
+<rect x="666.98" y="138" width="1.5" height="22" rx="1" fill="#fbfbfb" opacity="0.5"/>
+<text x="812" y="153" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#fbfbfb">62</text>
+<text x="480" y="178" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#bbbbc1" text-anchor="end">primary</text>
+<rect x="490" y="168" width="314" height="12" rx="6" fill="#67676b" opacity="0.28"/>
+<rect x="490" y="168" width="165.56" height="12" rx="6" fill="#f49c00" stroke="#67676b" stroke-width="0.75"/>
+<rect x="609.89" y="163" width="1.5" height="22" rx="1" fill="#fbfbfb" opacity="0.5"/>
+<text x="812" y="178" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#fbfbfb">58</text>
+<text x="480" y="203" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#bbbbc1" text-anchor="end">onPrimary</text>
+<rect x="490" y="193" width="314" height="12" rx="6" fill="#67676b" opacity="0.28"/>
+<rect x="490" y="193" width="174.13" height="12" rx="6" fill="#000000" stroke="#67676b" stroke-width="0.75"/>
+<rect x="695.53" y="188" width="1.5" height="22" rx="1" fill="#fbfbfb" opacity="0.5"/>
+<text x="812" y="203" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#fbfbfb">61</text>
+<text x="480" y="228" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#bbbbc1" text-anchor="end">accent</text>
+<rect x="490" y="218" width="314" height="12" rx="6" fill="#67676b" opacity="0.28"/>
+<rect x="490" y="218" width="168.42" height="12" rx="6" fill="#f69e00" stroke="#67676b" stroke-width="0.75"/>
+<rect x="584.2" y="213" width="1.5" height="22" rx="1" fill="#fbfbfb" opacity="0.5"/>
+<text x="812" y="228" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#fbfbfb">59</text>
+<text x="480" y="253" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#bbbbc1" text-anchor="end">border</text>
+<rect x="490" y="243" width="314" height="12" rx="6" fill="#67676b" opacity="0.28"/>
+<rect x="490" y="243" width="59.95" height="12" rx="6" fill="#67676b" stroke="#67676b" stroke-width="0.75"/>
+<rect x="541.38" y="238" width="1.5" height="22" rx="1" fill="#fbfbfb" opacity="0.5"/>
+<text x="812" y="253" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#fbfbfb">21</text>
+<text x="416" y="290" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#bbbbc1" font-weight="700">WEIGHT</text>
+<text x="472" y="290" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#bbbbc1" opacity="0.7">how much each role counts</text>
+<text x="480" y="316" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#bbbbc1" text-anchor="end">bg</text>
+<rect x="490" y="309" width="314" height="9" rx="4.5" fill="#67676b" opacity="0.28"/>
+<rect x="490" y="309" width="314" height="9" rx="4.5" fill="#19191c" stroke="#67676b" stroke-width="0.75"/>
+<text x="812" y="316" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#fbfbfb">1.00</text>
+<text x="480" y="337" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#bbbbc1" text-anchor="end">primary</text>
+<rect x="490" y="330" width="314" height="9" rx="4.5" fill="#67676b" opacity="0.28"/>
+<rect x="490" y="330" width="314" height="9" rx="4.5" fill="#f49c00" stroke="#67676b" stroke-width="0.75"/>
+<text x="812" y="337" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#fbfbfb">1.00</text>
+<text x="480" y="358" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#bbbbc1" text-anchor="end">text</text>
+<rect x="490" y="351" width="314" height="9" rx="4.5" fill="#67676b" opacity="0.28"/>
+<rect x="490" y="351" width="298.3" height="9" rx="4.5" fill="#fbfbfb" stroke="#67676b" stroke-width="0.75"/>
+<text x="812" y="358" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#fbfbfb">0.95</text>
+<text x="480" y="379" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#bbbbc1" text-anchor="end">surface</text>
+<rect x="490" y="372" width="314" height="9" rx="4.5" fill="#67676b" opacity="0.28"/>
+<rect x="490" y="372" width="188.4" height="9" rx="4.5" fill="#242427" stroke="#67676b" stroke-width="0.75"/>
+<text x="812" y="379" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#fbfbfb">0.60</text>
+<text x="480" y="400" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#bbbbc1" text-anchor="end">link</text>
+<rect x="490" y="393" width="314" height="9" rx="4.5" fill="#67676b" opacity="0.28"/>
+<rect x="490" y="393" width="172.7" height="9" rx="4.5" fill="#00c6e7" stroke="#67676b" stroke-width="0.75"/>
+<text x="812" y="400" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#fbfbfb">0.55</text>
+<text x="480" y="421" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#bbbbc1" text-anchor="end">textMuted</text>
+<rect x="490" y="414" width="314" height="9" rx="4.5" fill="#67676b" opacity="0.28"/>
+<rect x="490" y="414" width="141.3" height="9" rx="4.5" fill="#bbbbc1" stroke="#67676b" stroke-width="0.75"/>
+<text x="812" y="421" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#fbfbfb">0.45</text>
+<line x1="0" y1="470" x2="872" y2="470" stroke="#67676b" stroke-width="1"/>
+<rect x="22" y="488" width="30" height="30" rx="7" fill="#19191c" stroke="#67676b" stroke-width="1"/>
+<text x="22" y="532" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#bbbbc1">bg</text>
+<text x="22" y="544" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#fbfbfb" opacity="0.75">#19191c</text>
+<rect x="85.69" y="488" width="30" height="30" rx="7" fill="#242427" stroke="#67676b" stroke-width="1"/>
+<text x="85.69" y="532" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#bbbbc1">surface</text>
+<text x="85.69" y="544" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#fbfbfb" opacity="0.75">#242427</text>
+<rect x="149.38" y="488" width="30" height="30" rx="7" fill="#67676b" stroke="#67676b" stroke-width="1"/>
+<text x="149.38" y="532" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#bbbbc1">border</text>
+<text x="149.38" y="544" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#fbfbfb" opacity="0.75">#67676b</text>
+<rect x="213.08" y="488" width="30" height="30" rx="7" fill="#fbfbfb" stroke="#67676b" stroke-width="1"/>
+<text x="213.08" y="532" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#bbbbc1">text</text>
+<text x="213.08" y="544" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#fbfbfb" opacity="0.75">#fbfbfb</text>
+<rect x="276.77" y="488" width="30" height="30" rx="7" fill="#bbbbc1" stroke="#67676b" stroke-width="1"/>
+<text x="276.77" y="532" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#bbbbc1">textMuted</text>
+<text x="276.77" y="544" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#fbfbfb" opacity="0.75">#bbbbc1</text>
+<rect x="340.46" y="488" width="30" height="30" rx="7" fill="#f49c00" stroke="#67676b" stroke-width="1"/>
+<text x="340.46" y="532" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#bbbbc1">primary</text>
+<text x="340.46" y="544" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#fbfbfb" opacity="0.75">#f49c00</text>
+<rect x="404.15" y="488" width="30" height="30" rx="7" fill="#000000" stroke="#67676b" stroke-width="1"/>
+<text x="404.15" y="532" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#bbbbc1">onPrimary</text>
+<text x="404.15" y="544" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#fbfbfb" opacity="0.75">#000000</text>
+<rect x="467.85" y="488" width="30" height="30" rx="7" fill="#f69e00" stroke="#67676b" stroke-width="1"/>
+<text x="467.85" y="532" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#bbbbc1">accent</text>
+<text x="467.85" y="544" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#fbfbfb" opacity="0.75">#f69e00</text>
+<rect x="531.54" y="488" width="30" height="30" rx="7" fill="#000000" stroke="#67676b" stroke-width="1"/>
+<text x="531.54" y="532" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#bbbbc1">onAccent</text>
+<text x="531.54" y="544" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#fbfbfb" opacity="0.75">#000000</text>
+<rect x="595.23" y="488" width="30" height="30" rx="7" fill="#00c6e7" stroke="#67676b" stroke-width="1"/>
+<text x="595.23" y="532" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#bbbbc1">link</text>
+<text x="595.23" y="544" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#fbfbfb" opacity="0.75">#00c6e7</text>
+<rect x="658.92" y="488" width="30" height="30" rx="7" fill="#1ba145" stroke="#67676b" stroke-width="1"/>
+<text x="658.92" y="532" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#bbbbc1">success</text>
+<text x="658.92" y="544" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#fbfbfb" opacity="0.75">#1ba145</text>
+<rect x="722.62" y="488" width="30" height="30" rx="7" fill="#b98600" stroke="#67676b" stroke-width="1"/>
+<text x="722.62" y="532" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#bbbbc1">warning</text>
+<text x="722.62" y="544" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#fbfbfb" opacity="0.75">#b98600</text>
+<rect x="786.31" y="488" width="30" height="30" rx="7" fill="#d3776c" stroke="#67676b" stroke-width="1"/>
+<text x="786.31" y="532" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#bbbbc1">danger</text>
+<text x="786.31" y="544" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#fbfbfb" opacity="0.75">#d3776c</text>
 </svg>
