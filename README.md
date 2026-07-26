@@ -3,7 +3,8 @@
 Hand it colors. Get themes back, ranked, with the reasoning.
 
 ```bash
-npx hueristic '#0f172a' '#34f003' '#e2e8f0'
+git clone https://github.com/daxaur/hueristic && cd hueristic
+node bin/hueristic.js '#0f172a' '#34f003' '#e2e8f0'
 ```
 
 ```
@@ -55,12 +56,15 @@ That is an assignment-and-search problem, not a scale-generation problem. So:
 
 ## Install
 
+Not on npm yet — clone it:
+
 ```bash
-npm install hueristic     # library + CLI
-npx hueristic '#5b21b6' '#f59e0b' --mode light
+git clone https://github.com/daxaur/hueristic && cd hueristic
+node bin/hueristic.js '#5b21b6' '#f59e0b' --mode light
+npm link                  # optional, puts `hueristic` on your PATH
 ```
 
-Node 18+. No dependencies.
+Node 18+. No dependencies, nothing to build, no install step.
 
 ## How it works
 
@@ -114,6 +118,9 @@ hueristic '#0b0b0f' '#ff4d00' -f json       # everything, including the critique
 ```
 
 ## API
+
+Import from the package name once it is linked or vendored, or straight from
+`src/index.js` if you have just cloned it.
 
 ```js
 import { generateThemes, evaluateTheme } from 'hueristic';
