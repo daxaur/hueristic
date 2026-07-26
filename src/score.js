@@ -39,6 +39,14 @@ function chromaGate(role, { C }) {
   return 0.12 + 0.88 * clamp(C / role.minChroma) ** 0.9;
 }
 
+// And the reverse for text: paragraphs and captions in a saturated brand color
+// are tiring to read however well they score on contrast.
+function chromaCeilingGate(role, { C }) {
+  if (role.kind !== 'text' || !role.maxChroma) return 1;
+  const over = C / role.maxChroma;
+  return over <= 1 ? 1 : 1 - 0.45 * clamp((over - 1) / 1.5);
+}
+
 const fidelityFit = (final, source) => Math.exp(-deltaE(final, source) / 0.14);
 
 function chromaFit(role, { C }) {
@@ -79,7 +87,8 @@ function scoreRole(role, entry, theme) {
 
   const fidelity = entry.source ? fidelityFit(entry.lch, entry.source.lch) : 0.85;
   const chroma = chromaFit(role, entry.lch);
-  const gate = chromaGate(role, entry.lch) * recedeGate(role, entry.lc ?? 0);
+  const gate =
+    chromaGate(role, entry.lch) * chromaCeilingGate(role, entry.lch) * recedeGate(role, entry.lc ?? 0);
 
   return {
     contrast,

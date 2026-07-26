@@ -24,9 +24,11 @@ test('returned themes are ranked and distinct', () => {
   const { themes } = generateThemes(BRAND, { count: 4, seed: 7 });
   assert.ok(themes.length > 1, 'should offer a choice');
 
+  // Distinctness is a property of the whole palette, not of any one role —
+  // two themes may well settle on the same primary and differ everywhere else.
   for (let i = 1; i < themes.length; i++) {
     assert.ok(themes[i - 1].score >= themes[i].score, 'scores must descend');
-    assert.notEqual(themes[i - 1].palette.primary, themes[i].palette.primary);
+    assert.notDeepEqual(themes[i - 1].palette, themes[i].palette);
   }
 });
 
